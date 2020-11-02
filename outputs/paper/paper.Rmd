@@ -1,0 +1,103 @@
+---
+output:
+  bookdown::pdf_document2:
+    citation_package: natbib
+    keep_tex: false
+    fig_caption: true
+    number_sections: true
+    latex_engine: pdflatex
+    template: svm-latex-ms.tex
+title: "Three linked datasets about Australian politics"
+thanks: "We thank Jill Sheppard, Monica Alexander, and Rory Haupt, for their assistance, helpful comments, and suggestions. Our code and datasets are available at: https://github.com/RohanAlexander/AusPol. Comments on the `r format(Sys.time(), '%d %B %Y')` version of this paper are welcome at: rohan.alexander@utoronto.ca. For the latest version please click [here](https://github.com/RohanAlexander/AusPol/raw/master/outputs/paper/paper.pdf)."
+author:
+- name: Rohan Alexander
+  affiliation: University of Toronto
+- name: Hidaya Ismail
+  affiliation: University of Toronto
+- name: TBD
+  affiliation: University of Toronto
+abstract: "TBD"
+keywords: "TBD"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+geometry: margin=1in
+fontfamily: mathpazo
+fontsize: 12pt
+toc: FALSE
+# spacing: double
+bibliography: references.bib
+biblio-style: "apalike"
+endnote: no
+ 
+header-includes:
+- \usepackage{booktabs}
+- \usepackage{longtable}
+- \usepackage{array}
+- \usepackage{multirow}
+# - \usepackage[table]{xcolor}
+- \usepackage{wrapfig}
+- \usepackage{float}
+- \usepackage{colortbl}
+- \usepackage{pdflscape}
+- \usepackage{tabu}
+- \usepackage{threeparttable}
+- \usepackage{threeparttablex}
+- \usepackage[normalem]{ulem}
+- \usepackage{makecell}
+- \usepackage{subfig}
+# - \usepackage{fontspec}
+# - \setmainfont{Museo}
+
+
+
+---
+
+```{r setup, include=FALSE}
+library(tint)
+library(kableExtra)
+library(tidyverse)
+# invalidate cache when the package version changes
+knitr::opts_chunk$set(tidy = FALSE, cache.extra = packageVersion('tint'))
+options(htmltools.dir.version = FALSE)
+```
+
+
+
+# Introduction
+
+We tidy and link three datasets about Australian federal-level politics from 1901 to 2020: biographical information; election results; and Hansard. Tidying and linking these datasets allows researchers to answer a variety of questions that each individual dataset cannot. Our datasets were created in a reproducible way that can be updated and corrected as necessary and form a resource of interest to a variety of academic disciplines.
+
+Our biographical dataset - AustralianPoliticians - consists of 
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Data
+
+
+
+
+
+
+
+
+
+# Results
+
+
+
+# Discussion 
+
+
+
+\newpage
+
+# References
